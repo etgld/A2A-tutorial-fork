@@ -19,7 +19,6 @@ from beeai_framework.tools.think import ThinkTool
 
 from helpers import setup_env
 
-
 # Log only tool calls
 class ConciseGlobalTrajectoryMiddleware(GlobalTrajectoryMiddleware):
     def _format_prefix(self, meta: EventMeta) -> str:

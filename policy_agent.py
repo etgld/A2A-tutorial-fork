@@ -5,7 +5,6 @@ import litellm
 
 from helpers import setup_env
 
-
 class PolicyAgent:
     def __init__(self) -> None:
         setup_env()
