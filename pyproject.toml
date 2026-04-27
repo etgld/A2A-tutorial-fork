@@ -20,6 +20,8 @@ dependencies = [
     "ipython",
     "python-dotenv",
     "langgraph-a2a-server==0.1.6",
+    "ruff>=0.15.12",
+    "ty>=0.0.32",
 ]
 
 [tool.ruff]
